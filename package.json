@@ -1,0 +1,33 @@
+{
+  "name": "grunt-cep-vue-panel-boilerplate",
+  "version": "0.1.0",
+  "description": "Boilerplate code to get started with HTML panels for Adobe products that support CEP using Vue.",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-browserify": "^5.0.0",
+    "grunt-cep": "~0.4",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-vueify": "^1.0.1",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "vue": "^2.3.4",
+    "topcoat": "^0.7.5"
+  },
+  "author": {
+    "name": "Daniel Baron",
+    "email": "daniel@barooney.com",
+    "url": "http://barooney.com/"
+  },
+  "license": "Apache-2.0"
+}
