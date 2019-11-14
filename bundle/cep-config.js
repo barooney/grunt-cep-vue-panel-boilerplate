@@ -31,6 +31,20 @@ module.exports =
     }],
 
     builds: [
+        // CC2019
+        {
+            bundle: { manifest: 'bundle/manifest.bundle.cc2019.xml' },
+            products: ["indesign"],
+            source: 'src',
+            families: ['CC2019'],
+        },
+        // CC2018
+        {
+            bundle: { manifest: 'bundle/manifest.bundle.cc2018.xml' },
+            products: ["indesign"],
+            source: 'src',
+            families: ['CC2018'],
+        },
         // CC2017
         {
             bundle: { manifest: 'bundle/manifest.bundle.cc2017.xml' },
